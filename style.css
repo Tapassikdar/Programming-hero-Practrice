@@ -6,11 +6,15 @@ body{
 h1{
     font-size: 50px;
 }
+h2{
+    font-size: 40px;
+}
 .name-color{
     color:#FFA501;
 }
-section{
+.flexible-container{
     display: flex;
+    margin-bottom: 150px;
 }
 .half-width{
     width: 50%;
@@ -42,4 +46,25 @@ section{
 .dream-big-paragraph {
     padding-right: 120px;
     text-align: justify;
+}
+.main-exprience{
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+.experience-area{
+    width: 40%;
+    margin: 5%;
+    padding: 0 20px;
+    box-shadow: 10px 10px 20px gray;
+    border-radius: 10px;
+    text-align: justify;
+}
+#ful-stack{
+    border-left: 10px solid;
+    border-image: linear-gradient(#FF9370, #FF2E80);
+    border-image-slice: 1;
+}
+footer p{
+    text-align: center;
 }
